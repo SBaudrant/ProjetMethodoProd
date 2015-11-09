@@ -4,12 +4,12 @@ public class recherche {
 	public static boolean rechercheDicho(int t[], int elemt)
 	{
 		int gauche=0;
-		int droite=t.length-1;
+		int droite=t.length;
 		int milieu;
 		int j=0;
 		boolean res=false;
 		
-		for(int i=0; i<t.length-1;i++)
+		for(int i=0; i<t.length;i++)
 		{
 			milieu=(gauche+droite)/2;
 			
