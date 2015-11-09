@@ -1,5 +1,6 @@
 User Story 1 : En tant programmeur je veux trier un ensemble d'éléments stockés dans un tableau afin de 			   faciliter la recherche d'un élément.
 
+<<<<<<< HEAD
 Conditions de satisfactions :   1) Si le tableau entré est vide on le signale.
 									Cas de test : - 0 => Erreur, nombre de valeur insuffisante
 												  - 1 => Erreur, nombre de valeur insuffisante
@@ -11,10 +12,20 @@ Conditions de satisfactions :   1) Si le tableau entré est vide on le signale.
 
 
 
+=======
+Conditions de satisfactions :   1) Si le tableau entré est vide
+					Cas de test : - [ ] -> false ou [ ]
+											
+				2) Si le tableau contiens des éléments mélangés
+					Cas de test :   - [1 4 5 2] -> [1 2 4 5]
+							- [ 5 4 2 1] -> [1 2 4 5]
+							- [ 1 2 4 5] -> [1 2 4 5]
+>>>>>>> b5b3347d5a133fbeb54a6f1c8a6ba7f3041a7c4b
 
 
 User Story 2 : En tant que programmeur je veux rechercher un élément dans un tableau trié.
 
+<<<<<<< HEAD
 Conditions de satisfactions :	1) Le programme doit retourner une réponse.
 								Cas de test : - Un élément aléatoire=> une réponse(true ou la/les 
 												position(s)	de l'élément)
@@ -22,4 +33,16 @@ Conditions de satisfactions :	1) Le programme doit retourner une réponse.
 											  - Le dernier élément du tableau => true ou la position de 												l'élément
 											  - Un élément vide => false ou erreur 
 											  - Un élément non valide => false ou une erreur
+=======
+Conditions de satisfactions :	1) L'élément recherché n'est pas dans le tableau
+					Cas de test : - [1 2 4 5],6 -> false
 
+				2) L'élément recherché est dans le tableau
+					Cas de test :   - [1 2 4 5],4 -> true
+							- [1 2 4 5],1 -> true
+							- [1 2 4 5],5 -> true
+							- [ ],2 -> false
+							- [1 2 2 4],2 -> true
+>>>>>>> b5b3347d5a133fbeb54a6f1c8a6ba7f3041a7c4b
+
+								
