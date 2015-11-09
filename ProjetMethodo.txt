@@ -3,6 +3,7 @@ User Story 1 : En tant programmeur je veux trier un ensemble d'éléments stock�
 Conditions de satisfactions :   1) Si le tableau entré est vide on le signale.
 									Cas de test : - 0 => Erreur, nombre de valeur insuffisante
 												  - 1 => Erreur, nombre de valeur insuffisante
+												  - -1 => Erreur, valeur négative
 
 								2) Si le tableau contiens au moins deux éléments, un tableau trié est 									   attendu.
 									Cas de test : - 2 => Le tableau trié
@@ -15,7 +16,9 @@ Conditions de satisfactions :   1) Si le tableau entré est vide on le signale.
 User Story 2 : En tant que programmeur je veux rechercher un élément dans un tableau trié.
 
 Conditions de satisfactions :	1) Le programme doit retourner une réponse.
-								Cas de test : - Un élément => une réponse
-											  - Un élément vide => une erreur 
-											  - Un élément non valide => une erreur
-
+								Cas de test : - Un élément aléatoire=> une réponse(true ou la/les 
+												position(s)	de l'élément)
+											  - Le premier élément du tableau => true ou la position de 												l'élément
+											  - Le dernier élément du tableau => true ou la position de 												l'élément
+											  - Un élément vide => false ou erreur 
+											  - Un élément non valide => false ou une erreur
