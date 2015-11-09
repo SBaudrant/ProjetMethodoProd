@@ -1,24 +1,24 @@
 User Story 1 : En tant programmeur je veux trier un ensemble d'éléments stockés dans un tableau afin de 			   faciliter la recherche d'un élément.
 
 Conditions de satisfactions :   1) Si le tableau entré est vide
-									Cas de test : - [ ] -> false ou [ ]
+					Cas de test : - [ ] -> false ou [ ]
 											
-								2) Si le tableau contiens des éléments mélangés
-									Cas de test : - [1 4 5 2] -> [1 2 4 5]
-												  - [ 5 4 2 1] -> [1 2 4 5]
-												  - [ 1 2 4 5] -> [1 2 4 5]
+				2) Si le tableau contiens des éléments mélangés
+					Cas de test :   - [1 4 5 2] -> [1 2 4 5]
+							- [ 5 4 2 1] -> [1 2 4 5]
+							- [ 1 2 4 5] -> [1 2 4 5]
 
 
 User Story 2 : En tant que programmeur je veux rechercher un élément dans un tableau trié.
 
 Conditions de satisfactions :	1) L'élément recherché n'est pas dans le tableau
-								Cas de test : - [1 2 4 5],6 -> false
+					Cas de test : - [1 2 4 5],6 -> false
 
-								2) L'élément recherché est dans le tableau
-								Cas de test : - [1 2 4 5],4 -> true
-											  - [1 2 4 5],1 -> true
-											  - [1 2 4 5],5 -> true
-											  - [ ],2 -> false
-											  - [1 2 2 4],2 -> true
+				2) L'élément recherché est dans le tableau
+					Cas de test :   - [1 2 4 5],4 -> true
+							- [1 2 4 5],1 -> true
+							- [1 2 4 5],5 -> true
+							- [ ],2 -> false
+							- [1 2 2 4],2 -> true
 
 								
