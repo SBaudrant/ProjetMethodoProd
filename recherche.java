@@ -1,5 +1,5 @@
 
-public class recherche {
+public class Recherche {
 
 	public static boolean rechercheDicho(int t[], int elemt)
 	{
