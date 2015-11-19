@@ -1,4 +1,0 @@
-http://www.prog-info.org/cpp/trietrecherche/dichotomie.php
-
-La méthode choisie pour effectuer une recherche est la recherche dichotomique qui est une façon rapide et efficace de rechercher un élement dans un tableau trié.
-Cet algorithme commence par l'élément central et le compare à la clef recherché. Si les deux valeurs sont égales alors la valeur de l'indice est retournée. Si l'élément recherché est inférieur, la recherche est poursuivie de manière analogue dans la première partie du tableau. Sinon elle est supérieure et la recherche se poursuit dans seconde partie du tableau. La recherche continue jusqu'à ce que la clef soit égale à l'élément central d'un sous tableau ou jusqu'à ce que le sous tableau comporte un élément dont la valeur diffère de celle de la clef de recherche c'est à dire que la clef recherchée n'a pas été trouvée.
